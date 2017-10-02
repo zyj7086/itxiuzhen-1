@@ -1,0 +1,85 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #6ccdd5;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+}
+header div {
+    width:20%;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3.5rem;
+}
+article {
+    display:flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.back-btn {
+    background-image: url("./images/icon_back@1x.png");
+    width: 2.7rem;
+    height: 2.7rem;
+    background-size: 100%;
+    margin: 1rem;
+}
+.logo {
+    margin: 3rem;
+}
+.logo img {
+    max-width: 9rem;
+}
+footer {
+    display: flex;
+    margin: 6rem auto;
+    width: 70%;
+    justify-content: space-between
+}
+.icon_qq {
+    width: 4.3rem;
+    height: 4.3rem;
+    background-image: url(./images/icon_qq@1x.png);
+    background-size: 100%;
+}
+.icon_logo {
+    width: 4.3rem;
+    height: 4.3rem;
+    background-image: url(./images/icon_logo@1x.png);
+    background-size: 100%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    .back-btn {
+        background-image: url("./images/icon_back@2x.png");
+    }
+    .icon_qq {
+        background-image: url("./images/icon_qq@2x.png");
+    }
+    .icon_logo {
+        background-image: url("./images/icon_logo@2x.png");
+    }
+}
+
+
