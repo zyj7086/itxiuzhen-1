@@ -40,7 +40,7 @@ article {
 }
 footer {
     display: flex;
-    margin: 10rem auto;
+    margin: 10% auto;
     width: 70%;
     justify-content: space-between
 }
