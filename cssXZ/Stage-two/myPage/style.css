@@ -1,0 +1,162 @@
+/* reset */
+html {
+    font-size: 62.5%;
+}
+body, p, ul, li, ol {
+    margin: 0;
+    padding: 0;
+}
+ul, li, ol {
+    list-style: none;
+}
+
+/*layout*/
+header, footer {
+    position: fixed;
+    padding: 0.7rem 1rem;
+    line-height: 3.2rem;
+    font-size: 1.6rem;
+}
+header {
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    background-color: #5fc0cd;
+    color: #fff;
+}
+.title {
+    font-weight: bold;
+    margin: 0 auto;
+}
+.btn-back {
+    margin-right: -2.6rem;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    height: 4.5rem;
+}
+main {
+    position: absolute;
+    top: 4.6rem;
+    bottom: 6.5rem;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;
+}
+.summary,
+.detail ul li {
+    display: flex;
+    align-items: center;
+}
+.user-info {
+    align-self: center;
+}
+ul {
+    padding: 0 1.25rem;
+}
+.items li{
+    padding: 1.6rem 0 1.6rem 1rem;
+    border-bottom: .1rem solid #cccccc;
+}
+
+/*global*/
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul li div, .introduce div p{
+    font-size: 1.2rem;
+}
+.hot {
+    color: #e26163;
+}
+button {
+    border: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    width: 49%;
+}
+
+/*skin*/
+.user-pos, .user-info p span {
+    color: #fff;
+}
+.user-info {
+    margin-left: 2rem;
+}
+.user-info p {
+    margin-bottom: .6rem
+}
+.user-name, 
+.user-age {
+    font-size: 1.5rem;
+}
+.user-age {
+    padding-left: 1rem;
+}
+.user-pos {
+    font-size: 1.3rem;
+    padding-left: 2.5rem;
+    background: url(./images/icon_pos.png) no-repeat;
+}
+.user-title {
+    padding: 1.5rem 1rem;
+    border-bottom: .1rem solid #cccccc
+}
+.user-title span {
+    font-size: 1.2rem;
+    padding-left: .5rem;
+    border-left: .3rem solid #5fc0cd;
+}
+.user-tag {
+    padding-left: 1.4rem;
+    padding-right:1.5rem;
+    background: url(./images/icon_star.png) no-repeat left center;
+    background-size: 1.2rem;
+}
+.user-label {
+    border-right: .1rem solid #cccccc;
+    min-width: 5rem;
+    padding-right: 1.2rem;
+    color: #aaaaaa;
+    line-height: 2rem;
+}
+.user-item {
+    margin-left: 1.2rem;
+}
+.message {
+    background-color: #fff;
+    border: .2rem solid #5fc0cd;
+    color: #5fc0cd;
+}
+.phone {
+    background-color: #5fc0cd;
+    color: #fff;
+}
+/*module*/
+.summary {
+    height: 16.3rem;
+    background: url(./images/image_bg.jpg);
+    background-size: cover;
+}
+.user-image {
+    width: 7.4rem;
+    height: 7.4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #fff;
+}
+.user-image img {
+    width: 100%;
+}
