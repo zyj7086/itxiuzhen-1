@@ -82,6 +82,7 @@ ul li div, .introduce div p{
 }
 button {
     border: none;
+    outline: none;
     cursor: pointer;
     border-radius: .5rem;
     font-size: 1.6rem;
