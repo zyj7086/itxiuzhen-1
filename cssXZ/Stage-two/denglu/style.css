@@ -69,6 +69,7 @@ main form {
     font-size: 1.6rem;
     letter-spacing: 1rem;
     color: #fff;
+    cursor: pointer;
 }
 .btn:hover {
     background-color: #5bb7c3;
