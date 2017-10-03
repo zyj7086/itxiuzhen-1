@@ -108,8 +108,9 @@ button {
 }
 .user-pos {
     font-size: 1.3rem;
-    padding-left: 2.5rem;
-    background: url(./images/icon_pos.png) no-repeat;
+    padding-left: 2rem;
+    background: url(./images/icon_pos.png) no-repeat left center;
+    background-size: 1.2rem;
 }
 .user-title {
     padding: 1.5rem 1rem;
@@ -147,6 +148,7 @@ button {
 }
 /*module*/
 .summary {
+    padding-left: 2rem;
     height: 16.3rem;
     background: url(./images/image_bg.jpg);
     background-size: cover;
