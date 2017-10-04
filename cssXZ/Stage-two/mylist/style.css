@@ -1,0 +1,257 @@
+/* reset */
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body, p, ul, li, ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+
+/* layout */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 4rem;
+}
+
+.mycheck {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    position: relative;
+    top: 7.7rem;
+    left: 0;
+    right: 0;
+    color: #999;
+}
+
+.listgroups {
+    bottom: 5rem;
+}
+
+.nav-select {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.nav-select div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.triangle {
+    margin-right: 1rem;
+}
+
+.nav-item-left {
+    margin: 0 auto;
+}
+
+.item-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem .5rem;
+    margin-bottom: -0.1rem;
+    border-top: .1rem solid #e1e5e7;
+    border-bottom: .1rem solid #e1e5e7;
+}
+
+.item-left {
+    margin-left: 1rem;
+}
+
+.item-right {
+    margin-right: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: .5rem 2rem; 
+    border-top: .1rem solid #cccccc;
+}
+.meun {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.meun div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* global */
+
+a:link {
+    color: #f8fafb;
+}
+
+a:visited {
+    color: #f8fafb;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+    color: #5fc0cd;
+}
+
+
+/* skin */
+
+.title {
+    background-color: rgb(95, 192, 205);
+}
+
+.place {
+    display: inline-block;
+    height: 2rem;
+    padding: 1rem 1.3rem;
+    margin-right: 2rem;
+    margin-left: -4.5rem;
+    background: url(./images/location.png) no-repeat center center;
+    background-size: 2rem 2rem;
+}
+
+nav {
+    border-bottom: .1rem solid #cccccc;
+    background-color: #ffffff;
+}
+
+.nav-item {
+    width: 33%;
+    height: 3rem;
+    margin: .3rem auto;
+}
+
+.nav-select .module {
+    border-left: .1rem solid #e1e5e7;
+    border-right: .1rem solid #e1e5e7;
+}
+footer {
+    color: #5fc0cd;
+    background-color: #ffffff;
+}
+.home {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(./images/home_13.png) no-repeat;
+    background-size: 100%;
+}
+.mine {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(./images/my_13.png) no-repeat;
+    background-size: 100%;
+}
+.edit{
+    position: absolute;
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: #5fc0cd;
+}
+.edit .tupian{
+    width: 2.1rem;
+    height: 2.1rem;
+    background: url(./images/navigation1_13.png) no-repeat;
+    background-size: 100%;
+}
+
+
+/* module */
+
+.yes {
+    padding: .3rem .6rem;
+    border-radius: .5rem;
+    color: #5fc0cd;
+    background-color: #ffffff;
+}
+
+.no {
+    padding: .3rem .6rem;
+    color: #ffffff;
+}
+
+.mycheck {
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    background-color: #55a8b3;
+}
+
+.triangle {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: .5rem solid #999;
+    border-left: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+}
+
+.item-title {
+    padding: 0 1.7rem;
+    background: url(./images/day_07.png) no-repeat left center;
+    background-size: 1.4rem;
+}
+
+.item-time {
+    color: #000;
+    padding: .4rem 2rem;
+}
+
+.item-place {
+    padding: 0 1.7rem;
+    background: url(./images/dingwei_10.png) no-repeat left center;
+    background-size: 1.4rem;
+}
+
+.work-price {
+    display: inline-block;
+    padding-right: 1.5rem;
+    color: #DC143C;
+    background: url(./images/openpage_03.png) no-repeat right center;
+    background-size: 1rem;
+}
