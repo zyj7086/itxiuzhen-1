@@ -181,18 +181,21 @@ footer {
     height: 2.5rem;
     background: url(./images/home_13.png) no-repeat;
     background-size: 100%;
+    cursor: pointer;
 }
 .mine {
     width: 2.5rem;
     height: 2.5rem;
     background: url(./images/my_13.png) no-repeat;
     background-size: 100%;
+    cursor: pointer;
 }
 .edit{
     position: absolute;
     padding: 1.5rem;
     border-radius: 50%;
     background-color: #5fc0cd;
+    cursor: pointer;
 }
 .edit .tupian{
     width: 2.1rem;
