@@ -1,2 +1,31 @@
+<input id='btnPlay' type="button" onClick="playFn()" value="播放" />
+<audio id="audio">
 
-    
+
+    <source src="http://www.w3school.com.cn/i/song.mp3" type="audio/mpeg"> 　　您的浏览器不支持 audio 标签。
+
+</audio>
+
+<script>
+    function playFn() {
+
+        　　var audio = document.getElementById('audio');
+
+        　　if (document.getElementById('btnPlay').value == "播放") {
+
+            　　audio.play();
+
+            　　audio.loop = true;
+
+            　　document.getElementById('btnPlay').value = '暂停'
+
+        　　} else {
+
+            　　audio1.pause();
+
+            　　document.getElementById('btnPlay').value = '播放'
+
+        　　}
+
+    　　}
+</script>

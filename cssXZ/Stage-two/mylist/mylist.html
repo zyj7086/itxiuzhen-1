@@ -193,38 +193,38 @@
 </body>
 <script>
     var mylistitems = document.querySelectorAll(".nav-item")
-    var obj1 = document.getElementsByClassName("list1")[0]
-    var obj2 = document.getElementsByClassName("list2")[0]
-    var obj3 = document.getElementsByClassName("list3")[0]
+    var obj0 = document.getElementsByClassName("list1")[0]
+    var obj1 = document.getElementsByClassName("list2")[0]
+    var obj2 = document.getElementsByClassName("list3")[0]
     var clickitem;
     for (var i in mylistitems) {
         if (i === '0') {
             mylistitems[i].onclick = function (e) {
-                if (clickitem && clickitem != obj1) {
+                if (clickitem && clickitem != obj0) {
                     clickitem.style.visibility = "hidden"
                 }
                 obj1.style.visibility = "visible"
-                clickitem = obj1
+                clickitem = obj0
                 e.stopPropagation();
             }
         }
         if (i === '1') {
             mylistitems[i].onclick = function (e) {
-                if (clickitem && clickitem != obj2) {
+                if (clickitem && clickitem != obj1) {
                     clickitem.style.visibility = "hidden"
                 }
                 obj2.style.visibility = "visible"
-                clickitem = obj2
+                clickitem = obj1
                 e.stopPropagation();
             }
         }
         if (i === '2') {
             mylistitems[i].onclick = function (e) {
-                if (clickitem && clickitem != obj3) {
+                if (clickitem && clickitem != obj2) {
                     clickitem.style.visibility = "hidden"
                 }
                 obj3.style.visibility = "visible"
-                clickitem = obj3
+                clickitem = obj2
                 e.stopPropagation();
             }
         }
