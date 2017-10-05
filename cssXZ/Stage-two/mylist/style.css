@@ -88,12 +88,23 @@ main {
     align-items: center;
     padding: 1rem .5rem;
     margin-bottom: -0.1rem;
+    min-width: 9.75rem;
     border-top: .1rem solid #e1e5e7;
     border-bottom: .1rem solid #e1e5e7;
 }
 
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 .item-left {
     margin-left: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .item-right {
@@ -105,21 +116,22 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: .5rem 2rem; 
+    padding: .5rem 2rem;
     border-top: .1rem solid #cccccc;
 }
+
 .meun {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .meun div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-
 
 
 /* global */
@@ -172,10 +184,12 @@ nav {
     border-left: .1rem solid #e1e5e7;
     border-right: .1rem solid #e1e5e7;
 }
+
 footer {
     color: #5fc0cd;
     background-color: #ffffff;
 }
+
 .home {
     width: 2.5rem;
     height: 2.5rem;
@@ -183,6 +197,7 @@ footer {
     background-size: 100%;
     cursor: pointer;
 }
+
 .mine {
     width: 2.5rem;
     height: 2.5rem;
@@ -190,14 +205,16 @@ footer {
     background-size: 100%;
     cursor: pointer;
 }
-.edit{
+
+.edit {
     position: absolute;
     padding: 1.5rem;
     border-radius: 50%;
     background-color: #5fc0cd;
     cursor: pointer;
 }
-.edit .tupian{
+
+.edit .tupian {
     width: 2.1rem;
     height: 2.1rem;
     background: url(./images/navigation1_13.png) no-repeat;
@@ -251,10 +268,39 @@ footer {
     background-size: 1.4rem;
 }
 
+.item-place, .item-time, .item-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .work-price {
     display: inline-block;
     padding-right: 1.5rem;
     color: #DC143C;
     background: url(./images/openpage_03.png) no-repeat right center;
     background-size: 1rem;
+}
+
+.select-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.select-list ul {
+    margin: 0 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 100%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.select-list ul li {
+    margin-bottom: -.1rem;
+    line-height: 4rem;
+    border: .1rem solid #cccccc;
+    color: #5fc0cd;
+    font-size: 1.4rem;
 }
