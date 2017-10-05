@@ -1,7 +1,6 @@
 
-
 function playFn() {
-    if (player.value == "1") {
+    if (myplayer.value == "1") {
         console.log(this.myvalue)
         audio.play()
         this.myvalue = '0'
@@ -12,6 +11,6 @@ function playFn() {
     }
 }
 var myaudio = document.querySelector('audio')
-var player = document.querySelector('.player')
-myaudio.addEventListener('click', playFn, false)
+var myplayer = document.querySelector('.player')
+myplayer.addEventListener('click', playFn, false)
 myaudio.myvalue = '1'
