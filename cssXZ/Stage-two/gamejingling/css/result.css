@@ -1,13 +1,182 @@
 /* reset */
 
+html, body {
+    height: 100%;
+}
+
+body, p, ul, li, ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
 
 /* layout */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    background-color: #29bde0;
+    z-index: 999;
+    border-bottom: .05rem solid #a6a6a6; 
+}
+
+.title {
+    margin: 0 auto;
+}
+
+main {
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    background-color: #29bde0;
+}
+
+.result-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-word {
+    width: 80%;
+}
+.result-word p, .game-data{
+    margin: .4rem 0;
+}
+.logo {
+    width: 13rem;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.result-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.game-state {
+    width: 100%;
+}
+
+.mylist-group {
+    padding-bottom: 1rem;
+    margin-bottom: -.05rem;
+    border-top: .05rem solid #a6a6a6;
+    border-bottom: .05rem solid #a6a6a6;
+}
+
+.mygroup-item {
+    margin-left: 2rem;
+}
+
+.day-state {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    width: 90%;
+}
 
 
 /* global */
 
+.day-count {
+    display: inline-block;
+    margin: .2rem 0;
+    letter-spacing: .1rem;
+    font-size: 1.2rem;
+}
+
+body {
+    background-color: #29bde0;
+}
+
 
 /* skin */
 
+.day-state span {
+    font-size: 1.5rem;
+    color: #29bde0;
+}
+
+.day-content p {
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    color: #a6a6a6;
+}
+
+header {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.home {
+    display: inline-block;
+    margin-right: -2.9rem;
+    margin-left: 1rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    background: url(../images/icon-sprite.png);
+    background-size: 105%;
+    background-position: left 91.5%;
+}
+
+.result-word p {
+    font-size: 1.3rem;
+    color: #ffc865;
+}
+.game-data span {
+    letter-spacing: .1rem;
+    padding-right: 1.2rem;
+    color: #ffffff;
+    font-size: .9rem;
+}
 
 /* module */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    background-color: rgba(153, 223, 240, 0.7);
+}
+
+footer button {
+    position: relative;
+    border: 0;
+    outline: none;
+    width: 10rem;
+    line-height: 3.2rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+    border-radius: .5rem;
+}
+
+.again {
+    background-color: #f66f6f;
+}
+
+.share {
+    background-color: #fb8435;
+}

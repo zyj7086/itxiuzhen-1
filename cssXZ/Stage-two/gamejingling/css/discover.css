@@ -65,6 +65,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: .18rem;
     background-color: #29bde0;
 }
 
@@ -120,7 +121,7 @@ footer {
 }
 
 .behaviar-btn {
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-top: .1rem solid #ffffff;
 }
 
@@ -306,6 +307,9 @@ body {
     filter: alpha(Opacity=60);
     -moz-opacity: 0.6;
     opacity: 0.6;
+    background-color: #fbb435;
+}
+.identity-name:hover{
     background-color: #fbb435;
 }
 
