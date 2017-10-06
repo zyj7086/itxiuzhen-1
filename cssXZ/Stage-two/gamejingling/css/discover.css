@@ -65,7 +65,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #29bde0;
 }
 
 .module-chair {
@@ -77,11 +77,12 @@ main {
     flex-direction: column;
     align-items: center;
     padding: .2rem;
+    background-color: #ffffff;
 }
 
 .identity-name {
     display: inline-block;
-    width: 4.5rem;
+    width: 4.6rem;
     text-align: center;
     line-height: 3.6rem;
     font-size: 1rem;
@@ -90,6 +91,7 @@ main {
 
 .item-count {
     width: 100%;
+    line-height: 1rem;
     text-align: center;
     background-color: #29bde0;
 }
@@ -116,10 +118,12 @@ footer {
     background-color: #29bde0;
     z-index: 999;
 }
+
 .behaviar-btn {
-   padding: 1rem;
-   border-top: .1rem solid #ffffff;
+    padding: 1rem;
+    border-top: .1rem solid #ffffff;
 }
+
 
 /* global */
 
@@ -129,17 +133,24 @@ footer {
 body {
     background-color: #29bde0;
 }
+
 .state-title {
     background-color: #b9e9f5;
+}
+.prompt {
+    font-size: .8rem;
 }
 .yourturn {
     display: flex;
     align-items: center;
     padding-left: 2.7rem;
     height: 3rem;
+    font-size: .75rem;
     color: #b9e9f5;
     background-color: #29bde0;
 }
+
+
 /* module */
 
 .icon1, .icon2, .icon3, .icon4 {
@@ -173,9 +184,10 @@ body {
     border: 0;
     outline: none;
     font-size: 1.5rem;
-    color: #ffffff; 
+    color: #ffffff;
     background-color: #fbb435;
 }
+
 #trangle {
     position: absolute;
     left: 2.5rem;
@@ -184,9 +196,11 @@ body {
     border-right: .3rem solid transparent;
     border-top: .5rem solid #b9e9f5;
 }
+
 .buwei {
-    height: 4rem;
+    height: 7rem;
 }
+
 .player {
     display: inline-block;
     margin-top: .3rem;
@@ -195,5 +209,107 @@ body {
     margin-right: 1rem;
     background: url(../images/icon-sprite.png) no-repeat;
     background-position: left 82%;
-    background-size: 100%
+    background-size: 100%;
+    cursor: pointer;
+}
+
+.over-turn {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+.over-turn-header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.over-turn-header span {
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.menu, .myclose {
+    background: url(../images/icon-sprite.png);
+    background-size: 120%;
+}
+
+.menu {
+    background-position: left 71%;
+}
+
+.myclose {
+    background-position: left 62.5%;
+}
+
+.turn-choice {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    margin: 10rem auto;
+    width: 75%;
+    border-radius: .5rem;
+    background-color: #ffffff;
+}
+
+.turn-choice-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+.turn-choice-menu p {
+    padding: 1.5rem 0;
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    margin: 0 auto;
+    color: #4D5257;
+}
+
+.turn-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 .5rem;
+}
+
+.turn-button .yes, .no {
+    border: 0;
+    outline: none;
+    padding: .7rem 1.8rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.yes {
+    background-color: #FD7474;
+}
+
+.identity:hover::after {
+    position: absolute;
+    content: '';
+    width: 4.6rem;
+    height: 4.6rem;
+    filter: alpha(Opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    background-color: #fbb435;
+}
+
+.operation {
+    visibility: hidden;
+    
 }
