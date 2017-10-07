@@ -1,0 +1,118 @@
+/* main部分开始 */
+#main-advantage {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 75%;
+    max-width: 58rem;
+}
+.adv-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 11.9999rem;
+}
+.adv-item-title {
+    padding: 1rem 0 1rem 0;
+    font-size: .8em;
+    font-weight: bold;
+}
+.adv-item-content {
+    padding: .5rem 0 .5rem 0;
+    font-size: .8rem;
+    color: #999999;
+}
+.adv-item-img {
+    padding: 3rem 0 .5rem 0;
+}
+#main-state {
+    position: relative;
+    top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.5rem;
+    border-left: .1rem dashed #999999;
+    height: 8rem;
+    font-size: .9rem;
+    color: #999999;
+}
+.icon-people {
+    color: #26a26f;
+    padding-left: 1rem;
+    background: url(../images/mysp.png) no-repeat left 28%; 
+}
+#state-learning {
+    margin: .5rem 0;
+}
+#sate-working {
+    margin: .5rem 0;
+}
+#main-state span {
+    margin: .5rem 0;
+}
+
+#learn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#learn-action ul {
+    display: flex;
+}
+#learn-action ul li {
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    font-size: .8rem;
+    color: #999999;
+}
+#learn-action ul li p {
+    margin: 1rem;
+    width: 50%;
+}
+/* main部分结束 */
+
+
+/* ----------------------------------------------- */
+
+
+/* 技能树主页图标开始 */
+#icon-efficiency, #icon-standard, #icon-social{
+    width: 3rem;
+    height: 2.7rem;
+    background: url(../images/mysp.png) no-repeat;
+    background-size: 90%;
+}
+#icon-efficiency {
+    background-position: .5rem 53%; 
+}
+#icon-standard {
+    background-position: .15rem 76%; 
+}
+#icon-social {
+    background-position: .15rem 99%; 
+}
+.learn-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px solid #999999;
+    box-shadow: 0 1px 4px #999;
+    border-radius: 50%;
+    font-size: .9rem;
+    color: #26a26f;
+}
+.learn-next {
+    width: 1rem;
+    height: 1rem;
+    background: url(../images/mysp.png) no-repeat;
+    background-size: 270%;
+    background-position: left 36%;
+}
+/* 技能树主页图标结束 */
