@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html, body {
+    width: 1920px;
+    height: 100%;
+    font-family: "Microsoft YaHei UI"
+}
+
+body {
+    background-color: #fff;
+    font-size: 62.5%
+}
+
+header {
+    height: 138px;
+}
+
+nav {
+    height: 100px;
+    background-color: #29b078;
+    padding-right: 330px;
+}
+
+.navbox {
+    width: 100px;
+    height: 96px;
+    float: right;
+    text-align: center;
+    line-height: 96px;
+    font-size: 17px;
+    color: #fff
+}
+
+.navbox:hover {
+    border-bottom: 3px solid #fff
+}
+
+.active {
+    border-bottom: 3px solid #fff
+}
+
+.navbox {
+    width: 100px;
+    height: 97px;
+    float: right;
+    text-align: center;
+    line-height: 97px;
+    font-size: 16px;
+    color: #fff
+}
+
+#service {
+    height: 39px;
+    line-height: 39px;
+    padding: 0 357px
+}
+
+footer {
+    height: 200px;
+    border-top: 1px solid #32c086;
+    background-color: #26a26f;
+    color: #fff;
+}
+
+footer span {
+    font-size: 16px
+}
+
+footer p:hover {
+    border-bottom: 1px solid #fff
+}
+
+footer p {
+    font-size: 14px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    margin: 7px 0;
+}
+
+.weixin {
+    width: 100px;
+    float: right;
+    margin-right: 30px;
+    text-align: center
+}
+
+.c1, .c2, .c3 {
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin: 8px;
+}
+
+.c1, .c2, .c3, .logoefficiency, .logosocial, .logostandard, .arrow {
+    background: url("mysp.png") no-repeat;
+}
+
+.c1 {
+    background-position: left 0
+}
+
+.c2 {
+    background-position: left -29px;
+}
+
+.c3 {
+    background-position: left -58px;
+}
+
+.contact {
+    width: auto;
+    height: 39px;
+    float: right;
+    display: inline-block
+}
+
+.tel {
+    float: left;
+    font-size: 14px;
+    color: #29b078
+}
+
+#copyright {
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px
+}
+
+.guild {
+    height: 133px;
+    border-top: 1px solid #32c086;
+    border-bottom: 1px solid #32c086;
+    padding: 37px 357px 0 357px
+}
+
+.footbox {
+    float: left;
+    width: 360px;
+}
+
+.jinengshu {
+    width: 110px;
+    height: 52px;
+    margin: 24px 360px;
+    float: left;
+    background: url("jinengshu.png") no-repeat
+}

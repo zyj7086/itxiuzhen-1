@@ -1,0 +1,114 @@
+/* main部分布局开始 */
+
+#address {
+    position: relative;
+    left: 20%;
+    margin: 1rem;
+    width: 12rem;
+    font-size: .9rem;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+aside {
+    margin: 0 1rem;
+    width: 12rem;
+    box-shadow: 0 1px 5px #A8A8A8;
+}
+
+#aside-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 3rem;
+    font-size: .9rem;
+    border-bottom: .05rem solid #A8A8A8;
+}
+
+#aside-list {
+    display: flex;
+    justify-content: center;
+}
+
+#aside-list ul {
+    width: 5rem;
+}
+
+.list-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+#aside-list a {
+    margin-left: .5rem;
+    font-size: .8rem;
+    color: #29b078;
+}
+
+article {
+    width: 40rem;
+    margin: 1rem 1rem 2rem 1rem;
+    box-shadow: 0 1px 5px #A8A8A8;
+    font-size: .8rem;
+    color: #999999;
+}
+
+#section-top-tudou {
+    margin: .3rem;
+    border-bottom: .05rem solid #A8A8A8;
+}
+
+#section-top-tudou img {
+    float: left;
+    width: 7rem;
+    padding-left: 1rem;
+}
+#section-top-tudou::after {
+    content: '';
+    clear: both;
+}
+#section-top-tudou p {
+    padding: .5rem 1rem;
+    line-height: 1.3rem;
+}
+
+#section-bottom-tudou p {
+    padding: .5rem 1rem;
+    line-height: 1.4rem;
+}
+
+
+/* main部分布局结束 */
+
+
+/* 图标组件开始 */
+
+.point-round {
+    width: .5rem;
+    height: .5rem;
+    border: .1rem solid #ff650f;
+    border-radius: 50%;
+}
+
+.list-item.hot a {
+    color: #ff650f;
+}
+
+.hot {
+    color: #ff650f;
+}
+
+.hot .point-round {
+    background-color: #FF7023;
+}
+
+
+/* 图标组件结束 */

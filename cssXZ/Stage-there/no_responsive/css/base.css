@@ -90,6 +90,7 @@ footer {
 #footer-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto;
     padding: .4rem 0;
     max-width: 59rem;
@@ -114,6 +115,7 @@ footer {
     margin-right: 5.5rem;
 }
 #footer-weixin {
+    margin-left: 1rem;
     margin-right: 2rem;
 }
 #footer-weixin img {

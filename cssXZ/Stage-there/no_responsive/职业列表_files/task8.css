@@ -1,0 +1,170 @@
+a {
+    text-decoration: none;
+    color: #000
+}
+
+#subnav li {
+    list-style: none;
+    display: inline;
+    margin: 15px
+}
+
+img {
+    vertical-align: middle
+}
+
+#column {
+    height: 570px;
+    width: 100%;
+}
+
+dl {
+    height: 453px;
+    width: 382px;
+    margin-top: 46px;
+    box-shadow: 0 1px 5px #e2e2e2;
+    background-color: #fff;
+    float: left;
+    border-radius: 5px;
+    position: relative
+}
+
+dl.margin23px {
+    margin-left: 25px;
+    margin-right: 25px
+}
+
+dt.top {
+    width: 382px;
+    height: 174px;
+    float: left;
+    border: 1px solid #edf1f2;
+    vertical-align: middle
+}
+
+dt.side {
+    width: 150px;
+    height: 109px;
+    border: 1px solid #edf1f2;
+    line-height: 109px;
+    float: left;
+    text-align: center
+}
+
+dd.mid {
+    width: 189px;
+    height: 40px;
+    border: 1px solid #edf1f2;
+    float: left;
+    line-height: 40px;
+}
+
+dd.side {
+    width: 228px;
+    height: 35px;
+    border: 1px solid #edf1f2;
+    float: left;
+    line-height: 35px;
+}
+
+dd.bottom {
+    width: 382px;
+    height: 40px;
+    border: 1px solid #edf1f2;
+    float: left;
+    line-height: 40px
+}
+
+table {
+    width: 382px;
+    height: 174px;
+    padding: 4px
+}
+
+td {
+    padding: 2px
+}
+
+dl p {
+    font-size: 12px;
+    color: #999;
+    margin: auto 10px;
+    display: inline-block
+}
+
+.ios {
+    width: 382px;
+    height: 453px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: opacity 1s;
+
+}
+
+.data {
+    margin-left: 20px;
+    margin-right: 90px
+}
+
+.iostitle {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.iostext {
+    margin: 30px 40px;
+    text-align: justify
+}
+
+dl:hover .ios {
+    opacity: 1;
+    box-shadow: 10px 10px 20px #000;
+}
+
+#subnav a:hover {
+    background-color: #29b078
+}
+
+#subnav li:hover a {
+    color: white
+}
+
+@keyframes open {
+    from {
+        top: 0;
+        left: -382px
+    }
+    /***************test*/
+    to {
+        top: 0;
+        left: 0
+    }
+
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 14px;
+    margin: 0 10px
+}
+
+.font14px {
+    font-size: 14px
+}
+
+.font12px {
+    font-size: 12px;
+    color: #999
+}
+
+.font16px {
+    font-size: 16px
+}

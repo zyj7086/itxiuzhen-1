@@ -50,3 +50,6 @@ img {
 span {
 	display: block;
 }
+a {
+	display: inline-block;
+}
