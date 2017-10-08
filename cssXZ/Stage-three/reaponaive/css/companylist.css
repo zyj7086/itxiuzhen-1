@@ -98,11 +98,7 @@ article {
     border-radius: 50%;
 }
 
-.list-item.hot a {
-    color: #ff650f;
-}
-
-.hot {
+#aside-list .hot a {
     color: #ff650f;
 }
 
