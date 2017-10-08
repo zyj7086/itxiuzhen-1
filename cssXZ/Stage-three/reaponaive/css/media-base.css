@@ -1,0 +1,93 @@
+/* 页面header部分开始 */
+
+
+
+/* 页面header部分结束 */
+
+
+/* ------------------------------------------------------------ */
+
+
+/* 页面footer部分开始 */
+
+footer {
+    background-color: #29b078;
+    color: #ffffff;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: .4rem 0;
+    max-width: 59rem;
+}
+.footer-title {
+    margin: 1rem 0;
+}
+.footer-item {
+    margin: .7rem 0;
+}
+#footer-content a {
+    margin: 0 .6rem;
+    color: #ffffff;
+}
+.footer-title {
+    font-size: .8rem;
+}
+.footer-item {
+    font-size: .7rem;
+}
+#footer-app {
+    margin-right: 5.5rem;
+}
+#footer-weixin {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+#footer-weixin img {
+    width: 4.6rem;
+    height: 4.6rem;
+}
+#footer-copyright {
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 0 2rem;
+    font-size: .628rem;
+    border-top: 0.1rem solid #32c086;
+}
+/* 页面footer部分结束 */
+
+
+/* ------------------------------------------------------------ */
+
+
+/* 图标类开始 */
+
+#contact a {
+    display: inline-block;
+}
+
+#icon-con-1, #icon-con-2, #icon-con-3 {
+    display: inline-block;
+    width: 1.15rem;
+    height: 1.15rem;
+    background: url(../images/mysp.png);
+    background-size: 240%;
+}
+
+#icon-con-1 {
+    background-position: left -0.5%;
+}
+
+#icon-con-2 {
+    background-position: left 9.4%;
+}
+
+#icon-con-3 {
+    background-position: left 19.2%;
+}
+
+
+/* 图标类结束 */

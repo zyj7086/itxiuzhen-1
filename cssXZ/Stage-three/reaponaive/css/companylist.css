@@ -1,10 +1,8 @@
 /* main部分布局开始 */
 
 #address {
-    position: relative;
-    left: 20%;
-    margin: 1rem;
-    width: 12rem;
+    margin: 1rem auto;
+    width: 60%;
     font-size: .9rem;
 }
 
@@ -55,7 +53,7 @@ aside {
 
 article {
     width: 40rem;
-    margin: 1rem 1rem 2rem 1rem;
+    margin: 0 1rem 2rem 1rem;
     box-shadow: 0 1px 5px #A8A8A8;
     font-size: .8rem;
     color: #999999;
