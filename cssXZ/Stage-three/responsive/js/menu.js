@@ -3,7 +3,7 @@ var initMenu = (function () {
     var menuList
     var menuListHeight
     var headerHeight
-
+    var singleInstance
     //是否点击菜单按钮，初始值为false
     var isClick = false
     //获取元素
@@ -22,30 +22,21 @@ var initMenu = (function () {
                 ele.style.transform = `translate3d(0px, ${moveTempDis}px, 0px)`
                 clearInterval(goSpeed)
             }
-            if(dis === 0) {
+            if (dis === 0) {
                 menuList.style.zIndex = -999
             }
         }, 1)
     }
-    //检测屏幕宽度
-    function checkClientWidth() {
-        var bodyHeight = document.body.clientHeight
-        if (bodyHeight >= 789) {
-            closeMyMenu()
-        }
-        if(bodyHeight <= 790) {
-            wait()
-        }
-    }
+
     //打开菜单
     function openMyMenu() {
         isClick = true
         moveMenu('#menu-list', headerHeight)
         moveMenu('main', menuListHeight)
         moveMenu('footer', menuListHeight)
-        setTimeout(function(){
+        setTimeout(function () {
             menuList.style.zIndex = 999
-        },600)
+        }, 600)
         console.log(isClick)
     }
     //关闭菜单
@@ -70,21 +61,35 @@ var initMenu = (function () {
             }
         }, false)
     }
+
     function wait() {
+        console.log('1')
         header = document.querySelector('header')
         menuList = getMyEle('#menu-list')
         menuListHeight = menuList.clientHeight
         headerHeight = header.clientHeight
         clickMyMenuBtn()
     }
-    wait()
+
+    //检测屏幕宽度
+    function checkClientWidth() {
+        var bodyWidth = document.body.clientWidth;
+        if (bodyWidth >= 789) {
+            closeMyMenu()
+        }
+        if (bodyWidth <= 790) {
+            if (singleInstance) {
+                return
+            }
+            singleInstance = true;
+            wait()
+        }
+    }
     return {
         checkClientWidth: checkClientWidth
     }
 })()
-window.onload = initMenu
 
 //当浏览器宽度大于790px时，就不再需要下拉列表菜单
 //监听浏览器宽度的改变
 window.onresize = initMenu.checkClientWidth
-
