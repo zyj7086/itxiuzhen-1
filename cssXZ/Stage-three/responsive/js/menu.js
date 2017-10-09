@@ -1,8 +1,8 @@
 var initMenu = (function () {
-    var header = document.querySelector('header')
-    var menuList = getMyEle('#menu-list')
-    var menuListHeight = menuList.clientHeight
-    var headerHeight = header.clientHeight
+    var header
+    var menuList
+    var menuListHeight
+    var headerHeight
 
     //是否点击菜单按钮，初始值为false
     var isClick = false
@@ -33,16 +33,19 @@ var initMenu = (function () {
         if (bodyHeight >= 789) {
             closeMyMenu()
         }
+        if(bodyHeight <= 790) {
+            wait()
+        }
     }
     //打开菜单
     function openMyMenu() {
+        isClick = true
         moveMenu('#menu-list', headerHeight)
         moveMenu('main', menuListHeight)
         moveMenu('footer', menuListHeight)
         setTimeout(function(){
             menuList.style.zIndex = 999
         },600)
-        isClick = true
         console.log(isClick)
     }
     //关闭菜单
@@ -68,6 +71,10 @@ var initMenu = (function () {
         }, false)
     }
     function wait() {
+        header = document.querySelector('header')
+        menuList = getMyEle('#menu-list')
+        menuListHeight = menuList.clientHeight
+        headerHeight = header.clientHeight
         clickMyMenuBtn()
     }
     wait()
@@ -78,8 +85,6 @@ var initMenu = (function () {
 window.onload = initMenu
 
 //当浏览器宽度大于790px时，就不再需要下拉列表菜单
-initMenu.checkClientWidth();
 //监听浏览器宽度的改变
 window.onresize = initMenu.checkClientWidth
-
 
