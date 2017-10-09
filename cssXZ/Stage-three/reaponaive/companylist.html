@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../../static/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/my-font-size.css">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" media="screen and (min-width : 960px)" href="./css/base.css">
-    <link rel="stylesheet" media="screen and (max-width : 960px)" href="./css/media-base.css">
+    <link rel="stylesheet" media="screen and (min-width : 790px)" href="./css/base.css">
+    <link rel="stylesheet" media="screen and (max-width : 790px)" href="./css/media-base.css">
     <link href="./css/companylist.css" rel="stylesheet">
 </head>
 
@@ -19,9 +19,9 @@
     <!-- 页面头部开始 -->
     <header>
         <div id="service">
-            <div class="ser-row">
-                <div id="tel" class="col-xs-6">客服热线：010-594-78634</div>
-                <div id="contact" class="col-xs-12">
+            <div class="ser-row row alldis">
+                <div id="tel" class="col-xs-7">客服热线：010-594-78634</div>
+                <div id="contact" class="col-xs-5">
                     <a href="#"><span id="icon-con-1"></span></a>
                     <a href="#"><span id="icon-con-2"></span></a>
                     <a href="#"><span id="icon-con-3"></span></a>
@@ -29,16 +29,31 @@
             </div>
         </div>
         <nav>
-            <div class="ser-row">
+            <div class="ser-row row not-mobile">
                 <div id="home-logo" class="col-xs-6">
                     <img src="./images/home-logo.png" alt="home-logo">
                 </div>
-                <div id="nav-step" class="col-xs-12">
+                <div id="nav-step" class="col-xs-6">
                     <li><a href="#">职业殿堂</a></li>
                     <li><a href="#">线上学习</a></li>
                     <li><a href="#">我的学院</a></li>
                     <li><a href="#">学习资料</a></li>
                     <li><a href="#">线下实战</a></li>
+                </div>
+            </div>
+            <div class="menu-mobile mobile">
+                <div id="mob-home-logo">
+                    <img src="./images/home-logo.png" alt="home-logo">
+                </div>
+                <div id="mob-nav-step">
+                    <span id="myMBtn" class="glyphicon glyphicon-menu-hamburger"></span>
+                    <div id="menu-list">
+                        <li><a href="#">职业殿堂</a></li>
+                        <li><a href="#">线上学习</a></li>
+                        <li><a href="#">我的学院</a></li>
+                        <li><a href="#">学习资料</a></li>
+                        <li><a href="#">线下实战</a></li>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -136,6 +151,7 @@
         </div>
     </footer>
     <!-- footer结束 -->
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

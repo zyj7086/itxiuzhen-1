@@ -1,5 +1,7 @@
 /* main部分布局开始 */
-
+main {
+    background-color: #ffffff;
+}
 #address {
     margin: 1rem auto;
     width: 60%;

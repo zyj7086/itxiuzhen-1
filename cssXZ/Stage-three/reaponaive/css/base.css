@@ -1,3 +1,6 @@
+.mobile {
+    display: none;
+}
 /* 页面header部分开始 */
 
 header {
@@ -64,7 +67,7 @@ nav .ser-row {
 #nav-step a {
     display: inline-block;
     box-sizing: border-box;
-    height: 4.8rem;
+    /* height: 4.8rem; */
     font-size: .8rem;
     color: #ffffff;
 }

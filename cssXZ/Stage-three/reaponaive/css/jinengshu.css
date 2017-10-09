@@ -1,5 +1,7 @@
 /* main部分开始 */
-
+main {
+    background-color: #ffffff;
+}
 #main-advantage {
     display: flex;
     justify-content: center;
