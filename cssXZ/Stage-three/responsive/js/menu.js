@@ -85,6 +85,7 @@ var initMenu = (function () {
             wait()
         }
     }
+    wait()
     return {
         checkClientWidth: checkClientWidth
     }
@@ -92,4 +93,4 @@ var initMenu = (function () {
 
 //当浏览器宽度大于790px时，就不再需要下拉列表菜单
 //监听浏览器宽度的改变
-window.onresize = initMenu.checkClientWidth
+window.onload = initMenu
