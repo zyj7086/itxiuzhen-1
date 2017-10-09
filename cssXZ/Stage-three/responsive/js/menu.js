@@ -36,7 +36,7 @@ var initMenu = (function () {
         moveMenu('footer', menuListHeight)
         setTimeout(function () {
             menuList.style.zIndex = 999
-        }, 600)
+        }, 400)
         console.log(isClick)
     }
     //关闭菜单
