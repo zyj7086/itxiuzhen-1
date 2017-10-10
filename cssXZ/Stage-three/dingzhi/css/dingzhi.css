@@ -203,7 +203,7 @@ form {
 
 /* 改写radio样式开始 */
 
-.item-input-list label {
+.item-input-list label,#item-input-left label{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -212,7 +212,7 @@ form {
     cursor: pointer;
 }
 
-.item-input-list label:before {
+.item-input-list label:before,#item-input-left label:before{
     content: "";
     display: inline-block;
     margin: .4rem;
