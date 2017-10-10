@@ -1,0 +1,411 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d7ad9;
+    height: 2rem;
+    font-size: .8rem;
+    color: #ffffff;
+}
+
+#header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+#header-action {
+    display: flex;
+    justify-content: center;
+    align-items: centter;
+}
+
+#header-action span {
+    padding: .5rem;
+    border-right: .1rem solid #ffffff;
+    border-left: .1rem solid #ffffff;
+    margin-left: -.1rem;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-lists {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+    width: 75%;
+}
+
+#nav-lists span a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#nav-lists span {
+    margin: 0 .5rem;
+    padding: .8rem 1.3rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #e6e6e6;
+}
+
+#nav-lists span:hover {
+    background-color: #1d7ad9;
+}
+
+#nav-lists span:hover a {
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+form {
+    margin: 1rem 0;
+    width: 100%;
+    border: .1rem solid #e8e8e8;
+}
+
+.main-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.main-title span {
+    margin-left: .5rem;
+}
+
+.main-title p {
+    margin-left: .5rem;
+    font-size: 1.3rem;
+}
+
+.item-input-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.item-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    width: 95%;
+}
+
+.item-select {
+    margin-left: .6rem;
+}
+
+#item-input-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: .3rem 0;
+    width: 70%;
+}
+
+#item-input-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: .5rem 0;
+    width: 100%;
+}
+
+#item-input-left div {}
+
+#item-input-left label {}
+
+
+/* ----------------------------------------------------- */
+
+
+/* ----------------------------------------------------- */
+
+
+/* 进度条开始 */
+
+#process-lists {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0 1.5rem 0;
+    width: 75%;
+}
+
+.process-item {
+    position: relative;
+}
+
+.process-stick {
+    margin: 2rem 0;
+    width: 8rem;
+    height: .25rem;
+    background-color: #cccccc;
+}
+
+.process-round {
+    position: absolute;
+    top: 1.8rem;
+    left: 3.5rem;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+.process-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: .5rem;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.process-item>div:hover .process-stick,
+.process-item>div:hover .process-round {
+    background-color: #ff7f02;
+}
+
+.process-item>div:hover .process-content {
+    color: #ff7f02;
+}
+
+
+/* 进度条结束 */
+
+
+/* ----------------------------------------------------- */
+
+
+/* 改写radio样式开始 */
+
+.item-input-list label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: .6rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.item-input-list label:before {
+    content: "";
+    display: inline-block;
+    margin: .4rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    border: .1rem solid #cccccc;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio]:checked+label:before {
+    content: "\2022";
+    color: #ffffff;
+    font-size: .3rem;
+    text-align: center;
+    line-height: .2rem;
+    border: .35rem solid #1d7ad9;
+    border-color: #1d7ad9;
+}
+
+
+/* 改写radio样式结束 */
+
+
+/* 一根棍子 */
+
+#part-stick {
+    width: .3rem;
+    height: 1.3rem;
+    border-radius: .2rem;
+    background-color: #1d7ad9;
+}
+
+
+/* 一根棍子 */
+
+
+/* model-logo开始 */
+
+.item-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #f2f2f2;
+    color: #1d7ad9;
+}
+
+#model-logo-1,
+#model-logo-2,
+#model-logo-3 {
+    margin: 0 .5rem;
+    width: 1rem;
+    height: 1rem;
+    background: url(../images/9sprites.png);
+    background-size: 120%
+}
+
+#model-logo-1 {
+    background-position: left 0%;
+}
+
+#model-logo-2 {
+    background-position: left 50%;
+}
+
+#model-logo-3 {
+    background-position: left 73%;
+}
+
+
+/* model-logo结束 */
+
+
+/* 提交按钮开始 */
+
+#submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+}
+
+#submit button {
+    width: 12rem;
+    height: 3.1rem;
+    outline: none;
+    border: 0;
+    color: #ffffff;
+    font-size: 1.5rem;
+    background-color: #e15053;
+}
+
+
+/* 提交按钮结束 */
+
+
+/* 定义select样式开始 */
+.item-select select {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .2rem;
+    width: 6.5rem;    
+    height: 2rem;
+    font-size: .8rem;
+    -webkit-appearance: none;
+    appearance: none;
+    background: url(../images/002.png) no-repeat scroll 95% center transparent;  
+    
+}
+
+/* 定义select样式结束 */
+
+
+/* ----------------------------------------------------- */
+
+
+/* global开始 */
+
+#main-title,
+.main-item {
+    border-top: .1rem solid #cccccc;
+}
+
+
+/* global结束 */
+
+
+/* -------------------------------------------------- */
+
+
+/* footer开始 */
+
+footer {
+    margin: 3rem 0 0 0;
+}
+
+#footer-top ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 75%;
+    font-size: .8rem;
+    background-color: f9f9f9;
+    color: #999999;
+}
+
+#footer-module {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-module div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 .5rem 0;
+    width: 100%;
+}
+
+#footer-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#footer-module div span {
+    margin: 0 .5rem;
+}
+
+footer #footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d7ad9;
+    height: 2.5rem;
+    color: #ffffff;
+}
+
+footer #footer-bottom p {
+    text-align: center;
+    font-size: .8rem;
+    width: 70%;
+}
+
+
+/* footer结束 */

@@ -16,7 +16,7 @@ main {
 }
 
 aside {
-    margin: 0 1rem;
+    margin: 0 1rem 1rem 0;
     width: 12rem;
     box-shadow: 0 1px 5px #A8A8A8;
 }
@@ -51,6 +51,7 @@ aside {
     margin-left: .5rem;
     font-size: .8rem;
     color: #29b078;
+    text-decoration: none;
 }
 
 article {
