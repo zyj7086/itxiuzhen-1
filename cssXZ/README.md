@@ -1,11 +1,11 @@
 # 效果展示
 
-## 一. Stage-one
+# 一. Stage-one
 ### 1. [flex布局的九宫格](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-one/jiugongge.html)
 ### 2. [移动端页面展示](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-one/yidongduan/yidongduan.html)
 <br>
 
-## 二. Stage-two
+# 二. Stage-two
 ### 1. [登录页面](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-two/denglu/denglu.html)
 ### 2. [个人主页](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-two/mypage/mypage.html)
 ### 3. [列表页](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-two/mylist/mylist.html)
@@ -16,7 +16,7 @@
 <br>
  
  
-## 三. Stage-three
+# 三. Stage-three
 ## [非响应式]()
 ### [网站主页](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-three/no-responsive/jinengshu.html)
 ### [职位列表页](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-three/no-responsive/zhiyeliebiao2.html)
@@ -31,6 +31,6 @@
 ## 常见表单页面
 ### 1. [常见表单](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-three/dingzhi/dingzhi.html)
 
-## 四.使用css预处理器
+#3 四.使用css预处理器
 ### 1. [修改登陆页面](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-four/task-1/denglu.html)
 
