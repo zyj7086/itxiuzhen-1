@@ -31,9 +31,14 @@
 ## 3. 常见表单页面
 ### [常见表单](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-three/dingzhi/dingzhi.html)
 
+
+
 # 四.使用css预处理器
-### 1. [修改登陆页面](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-four/task-1/denglu.html)
-## 2. [重构个人主页和列表页]()
+## 1. [修改登陆页面](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-four/task-1/denglu.html)
+## 2. 重构个人哦主页和列表页
 ### [重构个人主页](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-four/task-2/mypage.html)
 ### [重构列表页](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-four/task-2/mylist.html)
-
+## 3. 重构桌游精灵页面
+### [网站主页](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-four/task-3/gamejingling/index.html)
+### [活动结束讨论页](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-four/task-3/gamejingling/discover.html)
+### [结果页](http://www.xxblog.site/itxiuzhen/cssXZ/Stage-four/task-3/gamejingling/result.html)

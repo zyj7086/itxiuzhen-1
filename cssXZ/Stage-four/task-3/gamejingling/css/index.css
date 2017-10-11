@@ -1,0 +1,166 @@
+/* reset */
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body, p, ul, li, ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+
+/* layout */
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.nav-title {
+    margin: 0 auto;
+}
+
+.nav-mynext {
+    margin-left: -1.8rem;
+    padding-right: 1rem;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 0;
+    border-bottom: .1rem solid #c9c9c9;
+}
+
+.main-title-words {
+    font-size: 2rem;
+    color: #fbb435;
+}
+
+.mylist-groups {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 0;
+    padding-top: .5rem;
+    width: 100%;
+}
+
+.mylist-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.people-num {
+    margin-top: 1rem;
+}
+
+
+/* global */
+
+button {
+    border: .1rem solid #a7e4f2;
+    outline: none;
+}
+
+
+/* skin */
+
+body {
+    background-color: #29bde0;
+}
+
+header span {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+nav {
+    height: 7rem;
+    background-color: #ffffff;
+    font-size: 1.8rem;
+    color: #9a9a9a;
+}
+
+nav span {
+    font-size: 2.5rem;
+    color: #c9c9c9;
+}
+
+.myitem-type {
+    width: 90%;
+    height: 20vw;
+    font-size: 1.6rem;
+    color: #ffffff;
+    background-color: #69d1e9;
+}
+
+.people-num {
+    letter-spacing: .2rem;
+    color: #9a9a9a;
+}
+
+
+/* module */
+
+.slide-point span {
+    display: inline-block;
+    margin: .4rem .2rem;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background-color: #c9c9c9;
+}
+
+.slide-point .hot {
+    background-color: #69d1e9;
+}
+
+#triangle {
+    position: absolute;
+    top: 42%;
+    right: 2%;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 1.3rem 0 1.3rem 1.3rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fbb435;
+}
