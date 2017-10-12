@@ -16,9 +16,10 @@
 
 .alldis {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
 }
 
 #contact {
@@ -79,7 +80,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .5rem;
+    padding: .5rem 0;
     width: 100%;
     cursor: pointer;
 }
@@ -196,5 +197,20 @@ footer {
     background-position: left 19.2%;
 }
 
-
+#myMBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.6rem;
+    border-radius: 5px;
+    border: .1rem solid #ffffff;
+}
+.hanbao-line {
+    height: .2rem;
+    width: 1.3rem;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
 /* 图标类结束 */

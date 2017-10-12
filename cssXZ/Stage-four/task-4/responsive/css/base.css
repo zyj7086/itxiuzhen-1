@@ -13,6 +13,9 @@ header {
 }
 
 .ser-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
     max-width: 59rem;
     min-width: 30rem;
