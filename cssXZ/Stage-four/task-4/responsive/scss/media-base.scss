@@ -1,0 +1,200 @@
+.not-mobile {
+    display: none;
+}
+
+
+/* 页面header部分开始 */
+
+
+/* --------------service部分-------- */
+
+#service {
+    padding: .25rem 0;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.alldis {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 95%;
+}
+
+#contact {
+    text-align: right;
+}
+
+#tel {
+    font-size: .65rem;
+    color: #29b078;
+}
+
+
+/* --------------service部分-------- */
+
+
+/* ------------响应式菜单------------ */
+
+nav {
+    background-color: #29b078;
+}
+
+.menu-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 3rem;
+    width: 90%;
+    border-bottom: .1rem solid #999999;
+}
+
+#mob-home-logo {
+    width: 10rem;
+}
+
+#mob-nav-step {
+    font-size: 1.6rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#menu-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .3rem 0;
+    font-size: 1rem;
+    background-color: #29b078;
+    z-index: -999;
+}
+
+#menu-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+#menu-list li:hover {
+    background-color: #13704A;
+}
+
+#menu-list li a {
+    letter-spacing: .25rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* ------------响应式菜单------------ */
+
+
+/* 页面header部分结束 */
+
+
+/* ------------------------------------------------------------ */
+
+
+/* 页面footer部分开始 */
+
+footer {
+    background-color: #29b078;
+    color: #ffffff;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: .4rem 0;
+    max-width: 59rem;
+}
+
+.footer-title {
+    margin: 1rem 0;
+}
+
+.footer-item {
+    margin: .7rem 0;
+}
+
+#footer-content a {
+    margin: 0 .6rem;
+    color: #ffffff;
+}
+
+.footer-title {
+    font-size: .8rem;
+}
+
+.footer-item {
+    font-size: .7rem;
+}
+
+#footer-app {
+    margin-right: 5.5rem;
+}
+
+#footer-weixin {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+#footer-weixin img {
+    width: 4.6rem;
+    height: 4.6rem;
+}
+
+#footer-copyright {
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 0 2rem;
+    font-size: .628rem;
+    border-top: 0.1rem solid #32c086;
+}
+
+
+/* 页面footer部分结束 */
+
+
+/* ------------------------------------------------------------ */
+
+
+/* 图标类开始 */
+
+#contact a {
+    display: inline-block;
+}
+
+#icon-con-1, #icon-con-2, #icon-con-3 {
+    display: inline-block;
+    width: 1.15rem;
+    height: 1.15rem;
+    background: url(../images/mysp.png);
+    background-size: 240%;
+}
+
+#icon-con-1 {
+    background-position: left -0.5%;
+}
+
+#icon-con-2 {
+    background-position: left 9.4%;
+}
+
+#icon-con-3 {
+    background-position: left 19.2%;
+}
+
+
+/* 图标类结束 */

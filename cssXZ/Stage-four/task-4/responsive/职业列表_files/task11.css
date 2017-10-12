@@ -1,0 +1,223 @@
+body {
+    background-color: #fafafa
+}
+
+.ios:hover {
+    opacity: 1
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    margin-bottom: 0;
+    line-height: 80px;
+    font-size: 16px;
+    padding: 0
+}
+
+.breadcrumb > li + li:before {
+    content: "> ";
+    padding: 0;
+    color: #000;
+}
+
+.breadcrumb a {
+    color: #333;
+}
+
+#subnav {
+    min-height: 60px;
+    line-height: 60px;;
+    border-top: 1px solid #d0d6d9;
+    border-bottom: 1px solid #edf1f2
+}
+
+#subnav {
+    margin-bottom: 0;
+    padding-left: 0
+}
+
+#subnav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.job-name {
+    height: 80px;
+    padding-top: 22px;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+dl {
+    margin-top: 46px;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    left: 50%;
+    width: 370px;
+    margin-left: -185px;
+    word-break: break-all;
+    border-radius: 5px;
+    margin-bottom: 0;
+    box-shadow: 0 1px 5px #eeeded;
+}
+
+dd, dt {
+    float: left;
+    border-bottom: 1px solid #edf1f2;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+dt {
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333
+}
+
+.job-table-head {
+    height: 175px;
+    padding-top: 20px;
+    color: #000;
+    font-size: 14px;
+    width: 100%
+}
+
+.job-picture {
+    float: left;
+    margin-right: 10px
+}
+
+.job-data {
+    width: 50%;
+    height: 40px;
+    line-height: 38px;
+    color: #999
+}
+
+.job-pay {
+    width: 39.5%;
+    line-height: 107px;
+    text-align: center;
+    color: #999
+}
+
+.job-pay-list {
+    width: 60.5%;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+.job-pay-list span {
+    float: right
+}
+
+.bd-right {
+    border-right: 1px solid #edf1f2
+}
+
+.job-msg {
+    border-bottom: 0;
+    height: 40px;
+    display: table;
+    vertical-align: middle;
+    color: #999
+}
+
+.job-msg-cell {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.job-data > .red {
+    color: red;
+    margin-left: 10px
+}
+
+.black {
+    color: #333;
+}
+
+.red {
+    color: red
+}
+
+dl h5 {
+    font-weight: bold
+}
+
+.ios {
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 85px;
+    padding-left: 40px;
+    padding-right: 40px;
+    opacity: 0;
+    transition: 0.5s
+}
+
+.ios p {
+    text-indent: 2.286rem;
+    text-align: justify;
+    margin-top: 37px
+}
+
+main {
+    padding-bottom: 236px
+}
+
+@media (max-width: 768px) {
+    dl {
+        width: 320px;
+        margin-left: -160px
+    }
+}
+
+#subnav a:hover {
+    background-color: #29b078;
+    color: #fff;
+    text-decoration: none
+}
+
+#subnav a:focus {
+    background-color: #29b078;
+    color: #fff;
+    text-decoration: none
+}
+
+#subnav a {
+    color: #333;
+    padding: 0 5px
+}
+
+#subnav a.active {
+    background-color: #29b078;
+    color: #fff;
+    text-decoration: none
+}
+
+.breadcrumb a:hover {
+    color: #29b078;
+    text-decoration: none
+}
+
+.breadcrumb a:focus {
+    color: #29b078;
+    text-decoration: none
+}
+
+.breadcrumb a.active {
+    color: #29b078
+}
