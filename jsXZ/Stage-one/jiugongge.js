@@ -17,7 +17,7 @@ function getRandomNum() {
         }
         return num
     }
-    getRandomNum()
+    return getRandomNum()
 }
 
 function setBColor() {
@@ -26,16 +26,11 @@ function setBColor() {
             tempItem[i].style.backgroundColor = 'orange'
         }
     }
-    console.log('-------------------------')
     for (let i = 0; i < 3; i++) {
         let index = getRandomNum()
-        console.log(index)
         items[index].style.backgroundColor = getColorNum()
-        console.log(items[index])
         tempItem.push(items[index])
     }
-    console.log(randomArr)
-    console.log('-------------------------')
 }
 
 var startBtn = document.querySelector('#start')
