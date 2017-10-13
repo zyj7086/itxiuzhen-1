@@ -9,12 +9,13 @@ function getColorNum() {
 }
 
 function getRandomNum() {
-    let num = Math.floor(Math.random() * 9)
-    if (randomArr.indexOf(num) < 0) {
+    var num = Math.floor(Math.random() * 9)
+    if (randomArr.indexOf(num) === -1) {
         randomArr.push(num)
         if (randomArr.length === 3) {
             randomArr = []
         }
+		console.log(num)
         return num
     }
     return getRandomNum()
@@ -28,7 +29,7 @@ function setBColor() {
     }
     for (let i = 0; i < 3; i++) {
         let index = getRandomNum()
-        items[index].style.backgroundColor = getColorNum()
+        items[index].style.backgroundColor = 'getColorNum()'
         tempItem.push(items[index])
     }
 }
