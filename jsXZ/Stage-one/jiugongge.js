@@ -29,7 +29,7 @@ function setBColor() {
     }
     for (let i = 0; i < 3; i++) {
         let index = getRandomNum()
-        items[index].style.backgroundColor = 'getColorNum()'
+        items[index].style.backgroundColor = getColorNum()
         tempItem.push(items[index])
     }
 }
