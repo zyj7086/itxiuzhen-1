@@ -15,7 +15,6 @@ function getRandomNum() {
         if (randomArr.length === 3) {
             randomArr = []
         }
-		console.log(num)
         return num
     }
     return getRandomNum()
