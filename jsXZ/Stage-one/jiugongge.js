@@ -42,5 +42,8 @@ window.onload = function () {
     }
     stopBtn.onclick = function () {
         clearInterval(colorGo)
+        for (let i in tempItem) {
+            tempItem[i].style.backgroundColor = 'orange'
+        }
     }
 }
